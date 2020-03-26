@@ -117,9 +117,6 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/novel/proprietary/vendor/etc/nxp/LVVEFS_Tx_Configuration.txt:system/vendor/etc/nxp/LVVEFS_Tx_Configuration.txt \
   vendor/samsung/novel/proprietary/vendor/lib/liblvverx_3.27.02.so:system/vendor/lib/liblvverx_3.27.02.so \
   vendor/samsung/novel/proprietary/vendor/lib/liblvvetx_3.27.02.so:system/vendor/lib/liblvvetx_3.27.02.so \
-  vendor/samsung/novel/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
-  vendor/samsung/novel/proprietary/vendor/lib/libOpenCL.so.1:system/vendor/lib/libOpenCL.so.1 \
-  vendor/samsung/novel/proprietary/vendor/lib/libOpenCL.so.1.1:system/vendor/lib/libOpenCL.so.1.1 \
   vendor/samsung/novel/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
   vendor/samsung/novel/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
   vendor/samsung/novel/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
