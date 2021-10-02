@@ -67,6 +67,15 @@ PRODUCT_COPY_FILES += \
     $(BLOB_PATH)/lib/omx/libOMX.Exynos.VP8.Decoder.so:system/lib/omx/libOMX.Exynos.VP8.Decoder.so \
     $(BLOB_PATH)/lib/omx/libOMX.Exynos.VP8.Encoder.so:system/lib/omx/libOMX.Exynos.VP8.Encoder.so \
     $(BLOB_PATH)/lib/omx/libOMX.Exynos.WMV.Decoder.so:system/lib/omx/libOMX.Exynos.WMV.Decoder.so \
+    $(BLOB_PATH)/lib/lib_DNSe_EP_ver216c.so:system/lib/lib_DNSe_EP_ver216c.so \
+    $(BLOB_PATH)/lib/lib_DNSe_NRSS_ver226.so:system/lib/lib_DNSe_NRSS_ver226.so \
+    $(BLOB_PATH)/lib/lib_SamsungRec_V04013.so:system/lib/lib_SamsungRec_V04013.so \
+    $(BLOB_PATH)/lib/lib_SamsungVAD_v01008.so:system/lib/lib_SamsungVAD_v01008.so \
+    $(BLOB_PATH)/lib/lib_soundaliveresampler.so:system/lib/lib_soundaliveresampler.so \
+    $(BLOB_PATH)/lib/lib_SoundAlive_3DPosition_ver107.so:system/lib/lib_SoundAlive_3DPosition_ver107.so \
+    $(BLOB_PATH)/lib/lib_SoundAlive_SRC192_ver205.so:system/lib/lib_SoundAlive_SRC192_ver205.so \
+    $(BLOB_PATH)/lib/lib_SoundAlive_play_plus_ver126a.so:system/lib/lib_SoundAlive_play_plus_ver126a.so \
+    $(BLOB_PATH)/lib/lib_SoundBooster_ver609c.so:system/lib/lib_SoundBooster_ver609c.so \
     $(BLOB_PATH)/lib/libaudio-ril.so:system/lib/libaudio-ril.so \
     $(BLOB_PATH)/lib/libbt-vendor.so:system/lib/libbt-vendor.so \
     $(BLOB_PATH)/lib/libcamera_metadata.so:system/lib/libcamera_metadata.so \
@@ -104,21 +113,12 @@ PRODUCT_COPY_FILES += \
     $(BLOB_PATH)/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
     $(BLOB_PATH)/lib/libtinycompress.so:system/lib/libtinycompress.so \
     $(BLOB_PATH)/lib/libwrappergps.so:system/lib/libwrappergps.so \
-    $(BLOB_PATH)/lib/lib_DNSe_EP_ver216c.so:system/lib/lib_DNSe_EP_ver216c.so \
-    $(BLOB_PATH)/lib/lib_DNSe_NRSS_ver226.so:system/lib/lib_DNSe_NRSS_ver226.so \
-    $(BLOB_PATH)/lib/lib_SamsungRec_V04013.so:system/lib/lib_SamsungRec_V04013.so \
-    $(BLOB_PATH)/lib/lib_SamsungVAD_v01008.so:system/lib/lib_SamsungVAD_v01008.so \
-    $(BLOB_PATH)/lib/lib_soundaliveresampler.so:system/lib/lib_soundaliveresampler.so \
-    $(BLOB_PATH)/lib/lib_SoundAlive_3DPosition_ver107.so:system/lib/lib_SoundAlive_3DPosition_ver107.so \
-    $(BLOB_PATH)/lib/lib_SoundAlive_SRC192_ver205.so:system/lib/lib_SoundAlive_SRC192_ver205.so \
-    $(BLOB_PATH)/lib/lib_SoundAlive_play_plus_ver126a.so:system/lib/lib_SoundAlive_play_plus_ver126a.so \
-    $(BLOB_PATH)/lib/lib_SoundBooster_ver609c.so:system/lib/lib_SoundBooster_ver609c.so \
     $(BLOB_PATH)/vendor/firmware/bcm43438A1_V0034.0090.hcd:system/vendor/firmware/bcm43438A1_V0034.0090.hcd \
     $(BLOB_PATH)/vendor/firmware/es305_fw.bin:system/vendor/firmware/es305_fw.bin \
     $(BLOB_PATH)/vendor/firmware/es305_fw_bypass.bin:system/vendor/firmware/es305_fw_bypass.bin \
     $(BLOB_PATH)/vendor/firmware/mfc_fw.bin:system/vendor/firmware/mfc_fw.bin \
     $(BLOB_PATH)/vendor/lib/egl/libGLES_mali.so:system/vendor/lib/egl/libGLES_mali.so \
     $(BLOB_PATH)/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
-    $(BLOB_PATH)/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
+    $(BLOB_PATH)/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     $(BLOB_PATH)/vendor/lib/liblvverx_3.27.02.so:system/vendor/lib/liblvverx_3.27.02.so \
     $(BLOB_PATH)/vendor/lib/liblvvetx_3.27.02.so:system/vendor/lib/liblvvetx_3.27.02.so \
