@@ -18,4 +18,4 @@
 PRODUCT_PACKAGES += \
    libGLES_mali
 
-$(call inherit-product, vendor/samsung/novel/novel-vendor-blobs.mk)
+$(call inherit-product, vendor/samsung/novel-common/novel-vendor-blobs.mk)
