@@ -40,7 +40,6 @@ PRODUCT_COPY_FILES += \
     $(BLOB_PATH)/bin/mcDriverDaemon:system/bin/mcDriverDaemon \
     $(BLOB_PATH)/bin/mfgloader:system/bin/mfgloader \
     $(BLOB_PATH)/bin/wlandutservice:system/bin/wlandutservice \
-    $(BLOB_PATH)/etc/bluetooth/bt_stack.conf:system/etc/bluetooth/bt_stack.conf \
     $(BLOB_PATH)/etc/wifi/bcmdhd_apsta.bin:system/etc/wifi/bcmdhd_apsta.bin \
     $(BLOB_PATH)/etc/wifi/bcmdhd_mfg.bin:system/etc/wifi/bcmdhd_mfg.bin \
     $(BLOB_PATH)/etc/wifi/bcmdhd_sta.bin:system/etc/wifi/bcmdhd_sta.bin \
@@ -53,7 +52,6 @@ PRODUCT_COPY_FILES += \
     $(BLOB_PATH)/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
     $(BLOB_PATH)/lib/hw/audio.primary.universal3475.so:system/lib/hw/audio.primary.universal3475.so \
     $(BLOB_PATH)/lib/hw/camera.exynos3.so:system/lib/hw/camera.exynos3.so \
-    $(BLOB_PATH)/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     $(BLOB_PATH)/lib/hw/gralloc.exynos3.so:system/lib/hw/gralloc.exynos3.so \
     $(BLOB_PATH)/lib/hw/keystore.exynos3475.so:system/lib/hw/keystore.exynos3475.so \
     $(BLOB_PATH)/lib/hw/memtrack.exynos3.so:system/lib/hw/memtrack.exynos3.so \
@@ -66,17 +64,7 @@ PRODUCT_COPY_FILES += \
     $(BLOB_PATH)/lib/omx/libOMX.Exynos.VP8.Decoder.so:system/lib/omx/libOMX.Exynos.VP8.Decoder.so \
     $(BLOB_PATH)/lib/omx/libOMX.Exynos.VP8.Encoder.so:system/lib/omx/libOMX.Exynos.VP8.Encoder.so \
     $(BLOB_PATH)/lib/omx/libOMX.Exynos.WMV.Decoder.so:system/lib/omx/libOMX.Exynos.WMV.Decoder.so \
-    $(BLOB_PATH)/lib/lib_DNSe_EP_ver216c.so:system/lib/lib_DNSe_EP_ver216c.so \
-    $(BLOB_PATH)/lib/lib_DNSe_NRSS_ver226.so:system/lib/lib_DNSe_NRSS_ver226.so \
-    $(BLOB_PATH)/lib/lib_SamsungRec_V04013.so:system/lib/lib_SamsungRec_V04013.so \
-    $(BLOB_PATH)/lib/lib_SamsungVAD_v01008.so:system/lib/lib_SamsungVAD_v01008.so \
-    $(BLOB_PATH)/lib/lib_soundaliveresampler.so:system/lib/lib_soundaliveresampler.so \
-    $(BLOB_PATH)/lib/lib_SoundAlive_3DPosition_ver107.so:system/lib/lib_SoundAlive_3DPosition_ver107.so \
-    $(BLOB_PATH)/lib/lib_SoundAlive_SRC192_ver205.so:system/lib/lib_SoundAlive_SRC192_ver205.so \
-    $(BLOB_PATH)/lib/lib_SoundAlive_play_plus_ver126a.so:system/lib/lib_SoundAlive_play_plus_ver126a.so \
-    $(BLOB_PATH)/lib/lib_SoundBooster_ver609c.so:system/lib/lib_SoundBooster_ver609c.so \
     $(BLOB_PATH)/lib/libaudio-ril.so:system/lib/libaudio-ril.so \
-    $(BLOB_PATH)/lib/libbt-vendor.so:system/lib/libbt-vendor.so \
     $(BLOB_PATH)/lib/libcamera_metadata.so:system/lib/libcamera_metadata.so \
     $(BLOB_PATH)/lib/libcsc.so:system/lib/libcsc.so \
     $(BLOB_PATH)/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
@@ -91,26 +79,11 @@ PRODUCT_COPY_FILES += \
     $(BLOB_PATH)/lib/libreference-ril.so:system/lib/libreference-ril.so \
     $(BLOB_PATH)/lib/libril.so:system/lib/libril.so \
     $(BLOB_PATH)/lib/librilutils.so:system/lib/librilutils.so \
-    $(BLOB_PATH)/lib/libsamsungDiamondVoiceExt.so:system/lib/libsamsungDiamondVoiceExt.so \
-    $(BLOB_PATH)/lib/libsamsungearcare.so:system/lib/libsamsungearcare.so \
-    $(BLOB_PATH)/lib/libSamsungPreProcess.so:system/lib/libSamsungPreProcess.so \
-    $(BLOB_PATH)/lib/libSamsungPostProcess.so:system/lib/libSamsungPostProcess.so \
-    $(BLOB_PATH)/lib/libSamsungPostProcessConvertor.so:system/lib/libSamsungPostProcessConvertor.so \
-    $(BLOB_PATH)/lib/libsamsungpowersound.so:system/lib/libsamsungpowersound.so \
-    $(BLOB_PATH)/lib/libsamsungRecord.so:system/lib/libsamsungRecord.so \
-    $(BLOB_PATH)/lib/libsamsungRecord_ns.so:system/lib/libsamsungRecord_ns.so \
-    $(BLOB_PATH)/lib/libsamsungSoundbooster_ext.so:system/lib/libsamsungSoundbooster_ext.so \
-    $(BLOB_PATH)/lib/libsamsungvad.so:system/lib/libsamsungvad.so \
     $(BLOB_PATH)/lib/libseccameracore.so:system/lib/libseccameracore.so \
     $(BLOB_PATH)/lib/libsecril-client.so:system/lib/libsecril-client.so \
     $(BLOB_PATH)/lib/libsec-ril.so:system/lib/libsec-ril.so \
     $(BLOB_PATH)/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
-    $(BLOB_PATH)/lib/libSEF.so:system/lib/libSEF.so \
     $(BLOB_PATH)/lib/libsensorservice.so:system/lib/libsensorservice.so \
-    $(BLOB_PATH)/lib/libsomp.so:system/lib/libsomp.so \
-    $(BLOB_PATH)/lib/libsoundalive.so:system/lib/libsoundalive.so \
-    $(BLOB_PATH)/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
-    $(BLOB_PATH)/lib/libtinycompress.so:system/lib/libtinycompress.so \
     $(BLOB_PATH)/lib/libwrappergps.so:system/lib/libwrappergps.so \
     $(BLOB_PATH)/vendor/firmware/bcm43438A1_V0034.0090.hcd:system/vendor/firmware/bcm43438A1_V0034.0090.hcd \
     $(BLOB_PATH)/vendor/firmware/es305_fw.bin:system/vendor/firmware/es305_fw.bin \
@@ -119,5 +92,6 @@ PRODUCT_COPY_FILES += \
     $(BLOB_PATH)/vendor/lib/egl/libGLES_mali.so:system/vendor/lib/egl/libGLES_mali.so \
     $(BLOB_PATH)/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
     $(BLOB_PATH)/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
+    $(BLOB_PATH)/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
     $(BLOB_PATH)/vendor/lib/liblvverx_3.27.02.so:system/vendor/lib/liblvverx_3.27.02.so \
-    $(BLOB_PATH)/vendor/lib/liblvvetx_3.27.02.so:system/vendor/lib/liblvvetx_3.27.02.so \
+    $(BLOB_PATH)/vendor/lib/liblvvetx_3.27.02.so:system/vendor/lib/liblvvetx_3.27.02.so
